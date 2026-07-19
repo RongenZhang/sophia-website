@@ -17,7 +17,7 @@ SITE = {
     "email": "Sophia_Zhang@baylor.edu",
     "baylor_profile": "https://hankamer.baylor.edu/person/rongen-sophia-zhang",
     "linkedin": "https://www.linkedin.com/in/rongen-sophia-zhang/",
-    "scholar": "https://scholar.google.com/citations?user=bMO81LYAAAAJ",
+    "scholar": "https://scholar.google.com/citations?user=bMO81LYAAAAJ&hl=en",
 }
 
 # --- About -----------------------------------------------------------------
