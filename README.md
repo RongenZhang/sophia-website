@@ -23,9 +23,12 @@ Box CV folder → build.py (parse newest CV) → docs/ (static site) → GitHub 
 Just save a new CV into the folder (e.g. `RongenZhang_CV_Aug1_2026.docx`).
 The scheduler notices, rebuilds, and pushes — the live site updates on its own.
 
-**Tip:** also export a PDF with the *same name* next to the `.docx`
-(`RongenZhang_CV_Aug1_2026.pdf`). `build.py` copies it to the site's **Download
-CV** button. Without a matching PDF it falls back to the newest PDF in the folder.
+The site's **Download CV** button needs a PDF. If you save a `.docx` without a
+matching `.pdf`, `build.py` **auto-exports one** (via LibreOffice, headless) next
+to the `.docx` and reuses it thereafter. You can still export your own PDF with
+the same name to override the auto-generated one. Auto-export needs LibreOffice
+installed (`brew install --cask libreoffice`); toggle it with `AUTO_EXPORT_PDF`
+in `config.py`.
 
 ## Manual commands
 

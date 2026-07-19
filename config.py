@@ -36,3 +36,15 @@ GIT_COMMIT_PREFIX = "Auto-update site from"
 
 # The custom domain written into docs/CNAME (kept identical to your Wix domain).
 CUSTOM_DOMAIN = "sophia-zhang.com"
+
+# If the newest CV .docx has no matching .pdf, export one automatically. The build
+# tries LibreOffice first (headless — works unattended in the scheduled job), then
+# Microsoft Word as a fallback (interactive sessions only). The generated PDF is
+# saved next to the .docx (same basename) so it's reused on later runs. If no
+# converter succeeds, the build falls back to the newest existing PDF and logs a
+# warning — it never fails the build.
+AUTO_EXPORT_PDF = True
+
+# Optional: full path to the LibreOffice `soffice` binary. Leave blank to
+# auto-detect (/Applications/LibreOffice.app/... or one found on PATH).
+LIBREOFFICE_PATH = ""

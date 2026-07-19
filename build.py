@@ -76,11 +76,76 @@ def find_latest_cv():
     return candidates[-1]
 
 
+def _soffice_bin():
+    """Locate the LibreOffice CLI, or return None."""
+    cand = getattr(config, "LIBREOFFICE_PATH", "") or \
+        "/Applications/LibreOffice.app/Contents/MacOS/soffice"
+    if os.path.exists(cand):
+        return cand
+    from shutil import which
+    return which("soffice")
+
+
+def export_pdf_with_libreoffice(docx_path, out_path):
+    """Headless docx -> pdf via LibreOffice. Works unattended (no GUI/prompts).
+    Returns True on success. Never raises."""
+    soffice = _soffice_bin()
+    if not soffice:
+        return False
+    outdir = os.path.dirname(out_path)
+    try:
+        r = subprocess.run(
+            [soffice, "--headless",
+             "-env:UserInstallation=file:///tmp/sophia_libreoffice",
+             "--convert-to", "pdf", "--outdir", outdir, docx_path],
+            capture_output=True, text=True, timeout=240)
+    except Exception as e:
+        print(f"  LibreOffice export failed ({e}).")
+        return False
+    # LibreOffice writes <docx-stem>.pdf into outdir, which equals out_path.
+    if os.path.exists(out_path):
+        print(f"  Exported PDF via LibreOffice: {os.path.basename(out_path)}")
+        return True
+    print(f"  LibreOffice export did not produce a PDF "
+          f"({(r.stderr or r.stdout or '').strip()[:120]}).")
+    return False
+
+
+def export_pdf_with_word(docx_path, out_path):
+    """Fallback: export via Microsoft Word (AppleScript). Reliable only in an
+    interactive session with automation permission granted; not for the
+    unattended scheduler. Returns True on success. Never raises."""
+    script = os.path.join(config.REPO_DIR, "export_pdf.applescript")
+    if not os.path.exists(script):
+        return False
+    try:
+        r = subprocess.run(
+            ["osascript", script, docx_path, out_path],
+            capture_output=True, text=True, timeout=180)
+    except Exception as e:
+        print(f"  Word export failed ({e}).")
+        return False
+    if r.returncode == 0 and os.path.exists(out_path):
+        print(f"  Exported PDF via Word: {os.path.basename(out_path)}")
+        return True
+    return False
+
+
+def export_pdf(docx_path, out_path):
+    """Try LibreOffice (unattended-friendly) first, then Word as a fallback."""
+    return (export_pdf_with_libreoffice(docx_path, out_path)
+            or export_pdf_with_word(docx_path, out_path))
+
+
 def matching_pdf(docx_path):
-    """PDF with the same basename as the CV, else the newest matching PDF."""
+    """PDF with the same basename as the CV, else the newest matching PDF.
+    If none matches and AUTO_EXPORT_PDF is on, generate one from the docx."""
     stem = os.path.splitext(docx_path)[0]
     if os.path.exists(stem + ".pdf"):
         return stem + ".pdf"
+    if getattr(config, "AUTO_EXPORT_PDF", False):
+        if export_pdf(docx_path, stem + ".pdf"):
+            return stem + ".pdf"
     import glob
     pdfs = [p for p in glob.glob(os.path.join(config.CV_FOLDER, "*.pdf"))
             if not any(x.lower() in os.path.basename(p).lower()

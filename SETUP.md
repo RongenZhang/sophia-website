@@ -89,6 +89,10 @@ next wake. To stop it later:
 
 ## Notes & options
 
+- **Auto-PDF export:** if a new CV `.docx` has no matching `.pdf`, the build
+  generates one automatically with LibreOffice (headless, works in the scheduled
+  job). It's already installed; if you ever move machines, run
+  `brew install --cask libreoffice`. Toggle with `AUTO_EXPORT_PDF` in `config.py`.
 - **Contact form:** the Contact section currently shows an *Email me* button. To
   get a real submit form (free), create a form at <https://formspree.io>, then
   put its endpoint in `content.py` → `CONTACT["formspree_endpoint"]` and rebuild.
