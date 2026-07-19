@@ -1,7 +1,7 @@
 {
   "meta": {
-    "cv_file": "RongenZhang_CV_May7_2026.docx",
-    "cv_date_label": "May 07, 2026"
+    "cv_file": "RongenZhang_CV_July19_2026.docx",
+    "cv_date_label": "July 19, 2026"
   },
   "data": {
     "research_interests": "Organizational and behavioral implications of emerging technologies, including but not limited to decentralized governance and artificial intelligence (AI); for example, issues related to governance engagement, decentralization, incentives, engagement behaviors, and explainable AI. Methodologies adopted include econometrics, experiments, and qualitative comparative analyses.",
@@ -72,21 +72,21 @@
     ],
     "working": [
       {
-        "citation": "Rongen Zhang, Junyoung Park, and Raffaele Ciriello. “Cryptocurrency-Incentivized User Engagement in Decentralized Communities: The Effects of Volatility, Power, and Status.” Major Revision at Journal of the Association for Information Systems (elite, ABS 4*).",
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue. “Unpacking Decentralization and the Effects on Blockchain Growth.” 2nd Round Revision at Journal of Management Information Systems (elite; FT50; ABS 4).",
+        "notes": [
+          "This study extends blockchain governance research by introducing a nuanced view of decentralization, distinguishing between operational (related to computational power) and developmental (related to developer contributions) dimensions. Grounded in Ostrom’s commons theory, it conceptualizes permissionless blockchains as common pool resources (CPRs) and explores how these dimensions of decentralization impact platform market capitalization. The study reveals that both dimensions follow an inverted U-shaped relationship with market capitalization and identifies governance engagement as a key mechanism mediating these effects. Specifically, operational governance engagement (e.g., mining participation) and developmental governance engagement (e.g., proposal activities) transmit the benefits of decentralization to enhance platform value. This research contributes to blockchain governance literature by highlighting the importance of multi-dimensional decentralization and governance engagement, offering strategic insights for platform designers and stakeholders to optimize joint value creation."
+        ]
+      },
+      {
+        "citation": "Rongen Zhang, Junyoung Park, and Raffaele Ciriello. “Cryptocurrency-Incentivized User Engagement in Decentralized Communities: The Effects of Volatility, Power, and Status.” Under Review (2nd Round) at Journal of the Association for Information Systems (elite, ABS 4*).",
         "notes": [
           "This study advances the understanding of incentive mechanisms in decentralized communities by distinguishing between two key characteristics of cryptocurrency rewards: portfolio volatility and portfolio power. It shows that portfolio volatility reduces engagement due to perceived risk, while portfolio power enhances engagement through governance rights and financial benefits, particularly for elite users. These findings provide actionable insights for the design of cryptocurrency incentives that balance risk and ownership to sustain user participation."
         ]
       },
       {
-        "citation": "Veneetia Johnson, Rongen Zhang, Balasubramaniam Ramesh, Jonathan Kim, and Amrita George. “Blockchain-enabled Value Co-creation in the Context of Coopetition.” Under 2nd Round Review at Journal of Information Technology (premier, ABS 4*).",
+        "citation": "Veneetia Johnson, Rongen Zhang, Balasubramaniam Ramesh, Jonathan Kim, and Amrita George. “Blockchain-enabled Value Co-creation in the Context of Coopetition.” Under Review at Information & Organization (High Quality, ABS 3).",
         "notes": [
           "This study introduces a novel framework using double-loop learning (DLL) to show how blockchain technology enables value co-creation in competitive collaborations (coopetition). It identifies key blockchain capabilities—decentralization, transparency, and smart contracts—that transform interorganizational dynamics by challenging existing practices and redefining governance structures. The findings provide insights into leveraging blockchain for strategic innovation and improved supply chain efficiency."
-        ]
-      },
-      {
-        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue. “Unpacking Decentralization and the Effects on Blockchain Growth.” Under 2nd Round Review at Journal of Management Information Systems (elite; FT50; ABS 4).",
-        "notes": [
-          "This study extends blockchain governance research by introducing a nuanced view of decentralization, distinguishing between operational (related to computational power) and developmental (related to developer contributions) dimensions. Grounded in Ostrom’s commons theory, it conceptualizes permissionless blockchains as common pool resources (CPRs) and explores how these dimensions of decentralization impact platform market capitalization. The study reveals that both dimensions follow an inverted U-shaped relationship with market capitalization and identifies governance engagement as a key mechanism mediating these effects. Specifically, operational governance engagement (e.g., mining participation) and developmental governance engagement (e.g., proposal activities) transmit the benefits of decentralization to enhance platform value. This research contributes to blockchain governance literature by highlighting the importance of multi-dimensional decentralization and governance engagement, offering strategic insights for platform designers and stakeholders to optimize joint value creation."
         ]
       },
       {
@@ -280,7 +280,7 @@
         "items": [
           "Razwan Tanvir, M.S. in Computer Science (Committee Member, Completed 2024)",
           "Thesis: Repository Blockchain for Collaborative Blockchain Ecosystem",
-          "Scott Morgan, Ph.D. Candidate in Business Intelligence (External Committee Member)",
+          "Scott Morgan, Ph.D. in Business Intelligence (External Committee Member)",
           "Dissertation: Enhancing Developer Productivity: Assessing the Impact of Generative AI-Powered Development Tools on Code-Exploration"
         ]
       },

@@ -339,6 +339,7 @@ def render(data, meta):
         "EMAIL_RAW": site["email"],
         "BAYLOR": site["baylor_profile"],
         "LINKEDIN": site["linkedin"],
+        "SCHOLAR": site.get("scholar", ""),
         "YEAR": str(_dt.date.today().year),
         "CV_DATE": esc(meta["cv_date_label"]),
         "RESEARCH_INTERESTS": esc(data["research_interests"]),
