@@ -509,7 +509,15 @@ def main():
 
     cv = find_latest_cv()
     base = os.path.basename(cv)
-    digest = hashlib.sha256(open(cv, "rb").read()).hexdigest()
+    # Signature covers the .docx AND a same-named .pdf (your Word export), so
+    # replacing just the PDF also triggers a rebuild.
+    h = hashlib.sha256()
+    h.update(open(cv, "rb").read())
+    stem_pdf = os.path.splitext(cv)[0] + ".pdf"
+    if os.path.exists(stem_pdf):
+        h.update(b"|pdf|")
+        h.update(open(stem_pdf, "rb").read())
+    digest = h.hexdigest()
     stamp_path = os.path.join(config.DATA_DIR, ".last_build")
     os.makedirs(config.DATA_DIR, exist_ok=True)
 
