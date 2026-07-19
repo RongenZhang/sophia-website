@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+build.log
+launchd.out.log
+launchd.err.log
+.DS_Store

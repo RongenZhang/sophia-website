@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.sophia.website</string>
+
+    <!-- What to run: the build wrapper in this repo. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/rongenzhang/sophia-website/run_build.sh</string>
+    </array>
+
+    <!-- When: every day at 12:00 (noon). If the Mac is asleep at 12:00,
+         launchd runs it at the next wake. build.py is a no-op when the CV
+         hasn't changed, so a daily run is cheap and safe. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>12</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <!-- Also re-run within seconds whenever the CV folder changes, so a new
+         CV goes live almost immediately (belt and suspenders with the timer). -->
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/rongenzhang/Library/CloudStorage/Box-Box/Personal/Personal Documents/CV</string>
+    </array>
+
+    <key>StandardOutPath</key>
+    <string>/Users/rongenzhang/sophia-website/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/rongenzhang/sophia-website/launchd.err.log</string>
+</dict>
+</plist>

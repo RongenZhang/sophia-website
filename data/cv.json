@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "cv_file": "RongenZhang_CV_May7_2026.docx",
+    "cv_date_label": "May 07, 2026"
+  },
+  "data": {
+    "research_interests": "Organizational and behavioral implications of emerging technologies, including but not limited to decentralized governance and artificial intelligence (AI); for example, issues related to governance engagement, decentralization, incentives, engagement behaviors, and explainable AI. Methodologies adopted include econometrics, experiments, and qualitative comparative analyses.",
+    "employment": [
+      {
+        "org": "Baylor University, Hankamer School of Business",
+        "location": "Waco, TX",
+        "role": "Assistant Professor of Business Analytics",
+        "date": "November 2022 - Present"
+      }
+    ],
+    "education": [
+      {
+        "org": "Georgia State University, J. Mack Robinson College of Business",
+        "location": "Atlanta, GA",
+        "role": "Ph.D. Computer Information Systems",
+        "date": "August 2022"
+      },
+      {
+        "org": "Harbin Institute of Technology",
+        "location": "Harbin, China",
+        "role": "B.S. Management Information Systems",
+        "date": "July 2018"
+      },
+      {
+        "org": "Technical University of Hamburg",
+        "location": "Hamburg, Germany",
+        "role": "International Management Science; Exchange Program",
+        "date": "August 2017"
+      }
+    ],
+    "journal": [
+      {
+        "citation": "Rongen Zhang, Eun Hee Park, Yoongi Kim, and Jongwoo Kim. (2025). “Uncovering the Associations of Research Paradigms and Methods with Theoretical Contribution Types” Communications of Association for Information Systems, 57",
+        "notes": [
+          "Communications of the Association for Information Systems (CAIS) is a peer-reviewed scholarly journal focusing on providing a broad purview of scholarly matters of information systems research, which is a perfect fit for this work. Acceptance rate for regular research articles: 13%; ABS ranking: 2.",
+          "This study provides a comprehensive analysis of 193 papers published between 2015 and 2022 examining how research paradigms and methods in information security correspond to theoretical contributions (theory-building vs. theory-testing). The findings of this work map out evolving methodological and theoretical patterns in the information security domain, and chart pathways for future research to align paradigm/method choice with desired theoretical contribution."
+        ]
+      },
+      {
+        "citation": "Rongen “Sophia” Zhang and Balasubramaniam Ramesh. (2024). “A Configurational Perspective on Design Elements and User Governance Engagement in Blockchain Platforms.” Information Systems Journal, 34(4), 1264–1323.",
+        "notes": [
+          "Information Systems Journal (ISJ) is recognized as a leading publication in the field, included in the Association of Information Systems (AIS) Senior Scholars’ List of Premier Journals, and rated as an ABS 4 journal. At the time of acceptance in 2023, it had an impact factor of 6.5 and an acceptance rate of 9%. This work was published as part of a special issue titled “Transcending the Qualitative-Quantitative Divide in IS Research.”",
+          "This study contributes to the understanding of blockchain platform governance by identifying optimal configurations of design elements that facilitate decentralized governance and user engagement. Utilizing fuzzy set qualitative comparative analysis (fsQCA), the research identifies five key design elements—access to decision rights, process visibility, protocol automation, and distinct incentives for developers/miners and other stakeholders. These elements combine to form four ideal types of blockchain platforms: the centralized incentive model, the impartial incentive model, the automation-driven model (for high generative governance engagement), and the comprehensive model (for high evaluative governance engagement). The significance of this work was highlighted by the guest editors of the special issue, who recognized its contribution to developing middle-range theories in the domain."
+        ]
+      },
+      {
+        "citation": "Charles A. Ellis, Mohammad S. E. Sendi, Rongen Zhang, Darwin A. Carbajal, May D. Wang, Robyn L. Miller, and Vince D. Calhoun. (2023). “Novel Methods for Elucidating Modality Importance in Multimodal Electrophysiology Classifiers.” Frontiers in Neuroinformatics, 17, 1123376.",
+        "notes": [
+          "Frontiers in Neuroinformatics is a highly respected, peer-reviewed journal in the field of neuroscience and computational neuroscience. It is part of the most cited neuroscience journal series, ranked in the Q1 (top 25%) in the Computer Science Applications category by Scimago Journal Rank (SJR) at the time of submission, and had an impact factor of 2.5. The journal is recognized for publishing interdisciplinary research that integrates neuroscience, informatics, and computational methodologies.",
+          "This interdisciplinary study bridges neuroscience and data science by developing novel explainability methods for multimodal electrophysiology classifiers in sleep stage classification. We introduce three approaches—global ablation, local ablation, and gradient-based feature attribution—to assess the importance of EEG, EOG, and EMG modalities. These methods reveal how clinical and demographic factors, such as sex, medication, and age, influence patterns learned by deep learning classifiers, offering new insights for personalized medicine and improving AI interpretability in clinical settings. My contributions to this interdisciplinary project included assisting with model development, conducting literature review, and revising the manuscript. Within a year of publication, this work has received 16 citations."
+        ]
+      },
+      {
+        "citation": "Karl Werder, Balasubramaniam Ramesh, and Rongen Zhang. (2022). “Establishing Data Provenance for Responsible Artificial Intelligence Systems.” ACM Transactions on Management Information Systems, 13(2), 1–23.",
+        "notes": [
+          "ACM Transactions on Management Information Systems is the only business-research-focused journal published by the Association for Computing Machinery (ACM), the world's largest scientific and educational computing society. It publishes high-quality peer-reviewed research on the design, development, assessment, and management of information technology, with an impact factor of 3.53 in 2023.",
+          "This paper investigates the role of data provenance in enhancing fairness, accountability, transparency, and explainability (FATE) in AI systems. It identifies biases originating from data sources and pre-processing stages, provides strategies for mitigating these biases, and proposes a research agenda to advance data provenance practices. The paper contributes significantly to the responsible AI discourse by demonstrating how data provenance can improve data quality, which is crucial for ensuring FATE characteristics in AI systems. I contributed to the conceptualization, literature review, and both the draft and revision of the manuscript. This work has been well-received, with 75 citations on Google Scholar within two years of publication."
+        ]
+      },
+      {
+        "citation": "Rongen Zhang, Amrita George, Jongwoo Kim, Veneetia Johnson, and Balasubramaniam Ramesh. (2019). “Benefits of Blockchain Initiatives for Value-Based Care: Proposed Framework.” Journal of Medical Internet Research, 21(9), e13595.",
+        "notes": [
+          "Journal of Medical Internet Research (JMIR) is a pioneering open-access eHealth journal and the flagship publication of JMIR Publications. It is a leading global journal in health services and digital health, with a 2024 Journal Impact Factor of 5.8, ranking in the Q1 category in both 'Medical Informatics' and 'Health Care Sciences & Services'. The journal is also ranked #1 on Google Scholar in the 'Medical Informatics' discipline.",
+          "This study proposes a novel framework for evaluating the benefits of blockchain technology in delivering value-based care by extending the Balanced Scorecard (BSC) evaluation framework. It assesses blockchain applications across five perspectives: financial, customer, internal process, learning and growth, and external partnerships. The framework provides a comprehensive evaluation method for blockchain initiatives in healthcare, demonstrating its potential to improve efficiency, security, and patient outcomes. I contributed to the theorizing, drafting, and revising stages of the research. As of September 2024, this work has received 27 citations according to Google Scholar, indicating its impact and relevance in the field."
+        ]
+      }
+    ],
+    "working": [
+      {
+        "citation": "Rongen Zhang, Junyoung Park, and Raffaele Ciriello. “Cryptocurrency-Incentivized User Engagement in Decentralized Communities: The Effects of Volatility, Power, and Status.” Major Revision at Journal of the Association for Information Systems (elite, ABS 4*).",
+        "notes": [
+          "This study advances the understanding of incentive mechanisms in decentralized communities by distinguishing between two key characteristics of cryptocurrency rewards: portfolio volatility and portfolio power. It shows that portfolio volatility reduces engagement due to perceived risk, while portfolio power enhances engagement through governance rights and financial benefits, particularly for elite users. These findings provide actionable insights for the design of cryptocurrency incentives that balance risk and ownership to sustain user participation."
+        ]
+      },
+      {
+        "citation": "Veneetia Johnson, Rongen Zhang, Balasubramaniam Ramesh, Jonathan Kim, and Amrita George. “Blockchain-enabled Value Co-creation in the Context of Coopetition.” Under 2nd Round Review at Journal of Information Technology (premier, ABS 4*).",
+        "notes": [
+          "This study introduces a novel framework using double-loop learning (DLL) to show how blockchain technology enables value co-creation in competitive collaborations (coopetition). It identifies key blockchain capabilities—decentralization, transparency, and smart contracts—that transform interorganizational dynamics by challenging existing practices and redefining governance structures. The findings provide insights into leveraging blockchain for strategic innovation and improved supply chain efficiency."
+        ]
+      },
+      {
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue. “Unpacking Decentralization and the Effects on Blockchain Growth.” Under 2nd Round Review at Journal of Management Information Systems (elite; FT50; ABS 4).",
+        "notes": [
+          "This study extends blockchain governance research by introducing a nuanced view of decentralization, distinguishing between operational (related to computational power) and developmental (related to developer contributions) dimensions. Grounded in Ostrom’s commons theory, it conceptualizes permissionless blockchains as common pool resources (CPRs) and explores how these dimensions of decentralization impact platform market capitalization. The study reveals that both dimensions follow an inverted U-shaped relationship with market capitalization and identifies governance engagement as a key mechanism mediating these effects. Specifically, operational governance engagement (e.g., mining participation) and developmental governance engagement (e.g., proposal activities) transmit the benefits of decentralization to enhance platform value. This research contributes to blockchain governance literature by highlighting the importance of multi-dimensional decentralization and governance engagement, offering strategic insights for platform designers and stakeholders to optimize joint value creation."
+        ]
+      },
+      {
+        "citation": "Junyoung Park, Ling Xue, Jing Tian, and Rongen Zhang. “Myopic Evaluative Governance Engagement in Cryptocurrency-Incentivized Online Community.” Data Analysis and Rewriting Stage; Preparation for Submission to Journal of Management Information Systems.",
+        "notes": [
+          "This study examines the impact of a cryptocurrency vesting period on user engagement in decentralized autonomous organizations (DAOs) using Steemit as a case study. It finds that reducing the vesting period increases user participation in governance activities but also leads to myopic behaviors, such as favoring popular content over high-quality contributions. The research contributes to understanding the trade-off between financial and ownership values in DAOs and offers insights into optimizing incentive mechanisms to balance user engagement and responsible governance. I contributed to the conceptual development, hypothesis development, and manuscript revision."
+        ]
+      },
+      {
+        "citation": "Suraj Sharma, Peter Snyder, Sophia Zhang, and Rachel Hammond. “Form Hospitable Hearts Through AI: A Framework for Navigating AI Affordances for Developing Christian Cultural Intelligence.” Under Review at Christian Scholar’s Review",
+        "notes": [
+          "This paper proposes a framework for integrating AI into Christian higher education by reframing cultural intelligence theory through Christian hospitality and spiritual formation. My contribution was developing the framework and identifying key AI affordances that responsibly support intercultural formation in faith-based contexts."
+        ]
+      }
+    ],
+    "proceedings": [
+      {
+        "citation": "Rongen “Sophia” Zhang, Karl Werder, Kartikeya Negi and, Balasubramaniam Ramesh (2026) “The Effect of Explanation Types on Algorithm Appreciation: Investigating the Role of XAI System Credibility, Perceived Condition Severity, and Risk-taking Propensity in Healthcare Decision-Making.” Hawaii International Conference on System Sciences (HICSS), Hawaii",
+        "notes": []
+      },
+      {
+        "citation": "Kartikeya Negi, Karl Werder, Rongen “Sophia” Zhang, and Balasubramaniam Ramesh (2025). “Impact of the Perceived System Bias and Type of AI Explanations on Decision-Making Effectiveness in Explainable AI Systems: Cognitive and Emotional Mechanisms.” International Conference on Information Systems (ICIS), Nashville, TN.",
+        "notes": []
+      },
+      {
+        "citation": "Suraj Sharma, Peter Snyder, Sophia Zhang, and Rachel Hammond (2025). “Form Hospitable Hearts Through AI: A Framework for Navigating AI Affordances for Developing Christian Cultural Intelligence.” Christian Business Faculty Association Annual Conference, Cleveland, TN",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, and Balasubramaniam Ramesh (2024). “Resource Provision Decentralization, Governance Engagement and the Joint Value Creation in Blockchain Platforms.” Conference on Information Systems Technology (CIST), Seattle, WA.",
+        "notes": []
+      },
+      {
+        "citation": "Junyoung Park, Rongen Zhang, and Ling Xue (2021). “Myopic Evaluative Governance Engagement in Cryptocurrency-Incentivized Online Community.” Conference on Information Systems Technology (CIST), Newport Beach, CA.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Junyoung Park, Raffaele Ciriello, and Jason B. Thatcher (2021). “Digital Class Struggle? Incentivizing User Engagement in a Blockchain-based Online Community.” 3rd Multidisciplinary International Symposium on Disinformation in Open Online Media, Oxford Internet Institute.",
+        "notes": []
+      },
+      {
+        "citation": "Charles A. Ellis, Rongen Zhang, Vince D. Calhoun, Darwin A. Carbajal, Robyn L. Miller, and May D. Wang (2021). “A Gradient-Based Approach for Explaining Multimodal Deep Learning Classifiers.” 2021 IEEE 21st International Conference on Bioinformatics and Bioengineering (BIBE), IEEE.",
+        "notes": []
+      },
+      {
+        "citation": "Charles Ellis, Darwin Carbajal, Rongen Zhang, Robyn Miller, Vince Calhoun, and May Wang (2021). “A Novel Local Ablation Approach for Explaining Multimodal Classifiers.” IEEE International Conference on Bioinformatics and Bioengineering (BIBE).",
+        "notes": []
+      },
+      {
+        "citation": "Charles Ellis, Rongen Zhang, Darwin Carbajal, Robyn Miller, Vince Calhoun, and May Wang (2021). “Explainable Sleep Stage Classification with Multimodal Electrophysiology Time-Series.” 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society.",
+        "notes": []
+      }
+    ],
+    "book": [
+      {
+        "citation": "Zhang, Rongen “Sophia” (2026). Blockchain and AI. In R. Beck (Ed.), Elgar Encyclopedia of Cryptocurrencies, Blockchain and DLT. Cheltenham, UK: Edward Elgar Publishing.",
+        "notes": []
+      },
+      {
+        "citation": "Zhang, Rongen “Sophia” (2026). Initial Non-Fungible Token Offerings (INO). In R. Beck (Ed.), Elgar Encyclopedia of Cryptocurrencies, Blockchain and DLT. Cheltenham, UK: Edward Elgar Publishing.",
+        "notes": []
+      }
+    ],
+    "presentations": [
+      {
+        "citation": "Xingwen “Winry” Liu, Rongen “Sophia” Zhang, Andew Winston (2026) “The Decentralization Illusion in Oracle Governance: Plutocratic Vulnerability in Prediction Market Settlement” 4th Business of Blockchain Technology Conference, Miami, FL.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen “Sophia” Zhang, Karl Werder, Kartikeya Negi, and Balasubramaniam Ramesh (2025). “The Role of Type of AI Explanation in Medical Decision-Making: Exploring the Cognitive and Emotional Mechanisms Shaping Informed Action.” INFORMS ISS–ISR Paper Development Workshop, Atlanta, GA",
+        "notes": []
+      },
+      {
+        "citation": "Eunice Park, Rongen \"Sophia\" Zhang, Yoongi Kim, and Jonathan Kim (2025). “Emotion Regulation in Security Behaviors: A Conceptual Review of Adaptive and Maladaptive Pathways.” 23rd JAIS Theory Development Workshop, ICIS 2025, Nashville, TN.",
+        "notes": []
+      },
+      {
+        "citation": "Eunice Park, Rongen \"Sophia\" Zhang, Yoongi Kim, and Jonathan Kim (2024).  “A Paradigmatic and Methodological Examination of Information Security and Emotion Research” AMCIS 2024 TREOs. 134.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue (2024). “Effects of Decentralization on Blockchain-based Digital Platform Market Capitalization.” 2nd Business of Blockchain Technology Conference, Miami, FL.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Junyoung Park, and Ling Xue (2024). “Digital Class Struggle? Incentivizing User Engagement in a Blockchain-based Online Community.” 2nd Business of Blockchain Technology Conference, Miami, FL.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue (2023). “Effects of Decentralization on Blockchain-based Digital Platform Market Capitalization.” Big XII+ MIS Symposium, Dallas, TX, March 2023.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang (2021). “Blockchain Governance Design Elements and Generative Governance Engagement.” 5th International QCA Paper Development Workshop.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang (2020). “The Impact of Blockchain Governance Mechanisms on User Governance Engagement in Decentralized Online Communities.” Blockchain eWorkshop of the European Conference of Information Systems.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Junyoung Park, and Raffaele Ciriello (2019). “The Differential Effects of Cryptocurrency Incentives in Blockchain Social Networks.” Pre-International Conference on Information Systems SIGBPS 2019 Workshop on Blockchain and Smart Contract, Munich, Germany.",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang and Junyoung Park (2019). “Crypto-Carrots and Crypto-Sticks: How Blockchain-Based Incentives Impact User Behavior in Social Networks.” Blockchain Research Workshop, Chengdu, China.",
+        "notes": []
+      }
+    ],
+    "in_progress": [
+      {
+        "citation": "Balasubramaniam Ramesh, Karl Werder, Kartikeya Negi, and Rongen Zhang. “The Effect of Explanation and Data Provenance on Medical Decision-making Effectiveness when Using AI Systems.” Data Analysis Stage.",
+        "notes": []
+      },
+      {
+        "citation": "Eunice Park, Rongen \"Sophia\" Zhang, Yoongi Kim, and Jonathan Kim. “A Paradigmatic and Methodological Examination of Information Security and Emotion Research.” Data Analysis Stage.",
+        "notes": []
+      },
+      {
+        "citation": "Jingbo Hou, Xiaohui Liu, Rongen Zhang, Junyoung Park (Authorship to be determined) “Exploring the Gender Gap in Task Delegation and Proficiency with Generative AI.” Data Analysis Stage",
+        "notes": []
+      },
+      {
+        "citation": "Suraj Sharma, Rongen Zhang, Rachel Hammond. “Bridging the Gap: Exploring the Role of AI in Enhancing Cross-Cultural Communication Intelligence.” Experiment Design;",
+        "notes": []
+      },
+      {
+        "citation": "Carlos Torres, Rongen Zhang, and Karl Werder. “How does Quasi-rationality of AI Influence Human Quasi-rationality in Decision-making.” Experiment Design.",
+        "notes": []
+      },
+      {
+        "citation": "Dapeng Liu, Jingyu Liu, and Rongen Zhang. “Digital Technology Use and Wellbeing” Data Analysis Stage",
+        "notes": []
+      }
+    ],
+    "invited": [
+      {
+        "citation": "Kartikeya Negi, Karl Werder, Rongen Zhang, and Balasubramaniam Ramesh (2024). “Impact of the Representational Fidelity of AI Explanations and Perceived Bias of AI Systems on Medical Decision-making: Cognitive and Emotional Mechanisms.” INFORMS Annual Meeting, Seattle, WA, October 2024",
+        "notes": []
+      },
+      {
+        "citation": "Invited Panelist: “Blockchain for Good” 2nd Business of Blockchain Technology Conference, Miami, FL, May 2024",
+        "notes": []
+      },
+      {
+        "citation": "Rongen Zhang, Christoph Mueller-Bloch, Balasubramaniam Ramesh, and Ling Xue. “Effects of Decentralization on Blockchain-based Digital Platform Market Capitalization.” INFORMS Annual Meeting, Phoenix, AZ, October 2023",
+        "notes": []
+      },
+      {
+        "citation": "Invited Talk: “Digital Class Struggle? Incentivizing User Engagement in a Blockchain-based Online Community” Rutgers University, April 2022",
+        "notes": []
+      }
+    ],
+    "awards": [
+      "2025 – Dean’s Excellence Grant",
+      "2024 – Best Associate Editor for International Conference of Information Systems",
+      "2023 – Best Reviewer for International Conference of Information Systems",
+      "2023 – Hankamer UGRA Research Funding",
+      "2021 – Georgia State University Graduate Student Teaching Excellence Award",
+      "2021 – George E. Manners Scholarship",
+      "2021 – Georgia State University Provost's Dissertation Fellowship",
+      "2021 – AIS Doctoral Student Service Award",
+      "2018-2022 – Second Century Initiative & Doctoral Fellowships, Georgia State University",
+      "April 2017 – Government Full Scholarship for Overseas Semester in Germany (The only student to qualify from the Harbin Institute of Technology)",
+      "November 2014 – National People Scholarship for three consecutive years",
+      "June 2014 – Ranked among the top 0.5% in the National College Entrance Examination"
+    ],
+    "service": [
+      {
+        "label": "University Service",
+        "items": [
+          "Faculty Advisor, Blockchain Collaborative, Baylor University, 2023–2024"
+        ]
+      },
+      {
+        "label": "Invited Panels",
+        "items": [
+          "Panelist: Faculty Perspective Panel; First in Line Success Academy, Baylor University, August 2024",
+          "Panelist: Facebook Libra Panel Discussion; 3rd World Digital Economy Conference in Beijing, China, June 2019"
+        ]
+      },
+      {
+        "label": "Invited Speaker",
+        "items": [
+          "GSU Honors College Research Method Workshop, Georgia State University, September 2021",
+          "The 18th Beijing International Consumer Electronics Exposition; 3rd World Digital Economy Conference in Beijing, China, June 2019"
+        ]
+      },
+      {
+        "label": "Graduate Student Thesis Committee",
+        "items": [
+          "Razwan Tanvir, M.S. in Computer Science (Committee Member, Completed 2024)",
+          "Thesis: Repository Blockchain for Collaborative Blockchain Ecosystem",
+          "Scott Morgan, Ph.D. Candidate in Business Intelligence (External Committee Member)",
+          "Dissertation: Enhancing Developer Productivity: Assessing the Impact of Generative AI-Powered Development Tools on Code-Exploration"
+        ]
+      },
+      {
+        "label": "Invited Reviewer",
+        "items": [
+          "MIS Quarterly",
+          "Management Science",
+          "Decision Support System",
+          "European Journal of Information Systems",
+          "Information Systems Journal",
+          "Journal of Association of Information Systems",
+          "Journal of Medical Internet Research",
+          "Transactions of Management Information Systems",
+          "AI Ethics",
+          "Journal of Engineering and Technology Management",
+          "International Conference on Information Systems (ICIS 2020, 2021, 2022, 2023, 2024)",
+          "Pacific Asia Conference on Information Systems (PACIS 2022, 2023, 2024)",
+          "European Conference on Information Systems (ECIS 2022, 2024)",
+          "Americas Conference on Information Systems (AMCIS 2021, 2022, 2024)",
+          "Hawaiian Conference on Information Systems (HICSS 2025, 2026)",
+          "China Summer Workshop on Information Management (CSWIM 2023)",
+          "Conference on Information Systems Technology (2025)"
+        ]
+      },
+      {
+        "label": "Associate Editor",
+        "items": [
+          "International Conference on Information Systems (ICIS 2024, 2025)",
+          "Pacific Asia Conference on Information Systems (PACIS 2023)",
+          "Americas Conference on Information Systems (AMCIS 2024)"
+        ]
+      },
+      {
+        "label": "Board Member",
+        "items": [
+          "Secretary of AIS Doctoral Student College 2021 Executive Board",
+          "Vice President of Georgia State University (GSU) Robinson PhD Fellows 2020 Executive Board"
+        ]
+      },
+      {
+        "label": "Coordinator",
+        "items": [
+          "MISQ Insider, 2022-2023",
+          "Dan Robey’s Workshop, 2021-2022"
+        ]
+      },
+      {
+        "label": "Volunteer",
+        "items": [
+          "Americas Conference on Information Systems (AMCIS 2021)",
+          "International Conference on Information Systems (ICIS 2018, 2019)",
+          "2018 Board Meeting of Confucius Institute at Georgia State University (Interpreter)"
+        ]
+      }
+    ],
+    "skills": [
+      "Programming:",
+      "• R, Python, SQL, HTML",
+      "• Certificates: Neural Networks and Deep Learning, Structuring Machine Learning Projects",
+      "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization, Blockchain Technology and Hyperledger Applications",
+      "Statistical Software:",
+      "• Stata, SPSS, MongoDB"
+    ],
+    "membership": [
+      "Association of Information Systems (AIS)",
+      "Academy of Management (AOM)",
+      "Institute of Operations Research and Management Science (INFORMS)"
+    ]
+  }
+}
